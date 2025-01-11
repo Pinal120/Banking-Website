@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Source: https://www.youtube.com/watch?v=ldwlOzRvYOU -->
+    <!-- Header Section -->
+    <header>
+      <h1 class="logo">EasyBank</h1>
+      <nav class="desktop-nav">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mortgage-calculator.html">Mortgage Calculator</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Mobile Navigation Section -->
+     <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+            <li><a href="mortgage-calculator.html" onclick="toggleMenu()">Mortgage Calculator</a></li>
+            <li><a href="about.html" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact Us</a></li>
+            <li><a href="faq.html" onclick="toggleMenu()">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <br/>
+      <section>
+        <header class="header-main">
+          <div class="images-wrapper">
+            <div class="menu-background"></div>
+            <img src="../images/image-mockups.png" alt="Picture of 4 phones" class="telephones">
+            <img src="../images/bg-intro-mobile.svg" alt="Colorful background image" class="header-main-background-mobile">
+            <img src="../images/bg-intro-desktop.svg" alt="Colorful background image" class="header-main-background-desktop">
+          </div>
+        <h2>Welcome to EasyBank</h2>
+        <div class="text">
+          <p>Your trusted partner in financial success. Learn more about our range of services.</p>
+          <p>You can enjoy an additional 1% cashback (up to a maximum of £5 per month) until 30 November when you register for Cashback Rewards.</p>
+        </div>
+        <br/>
+        <a href="mortgage-calculator.html" class="cta-btn">Try the Mortgage Calculator</a>
+      </section>
+
+      <section>
+        <h2>Our Services</h2>
+        <div class="service">
+          <h3>Current accounts</h3>
+          <p>Find a current account that works for you.</p>
+        </div>
+        <div class="service">
+          <h3>Credit cards</h3>
+          <p>Choice is the key to finding the right credit card.</p>
+        </div>
+        <div class="service">
+          <h3>Savings accounts</h3>
+          <p>Whatever you're dreaming of, you can start saving today.</p>
+        </div>
+        <div class="service">
+          <h3>Loans</h3>
+          <p>Focus on the future with a personal loan.</p>
+        </div>
+        <div class="service">
+          <h3>Mortgages</h3>
+          <p>Take a look at the range of mortgages we can offer to help with your plans.</p>
+        </div>
+        <div class="service">
+          <h3>Insurance</h3>
+          <p>Your safety net if things go wrong. Explore our life, tech, business and travel cover – including our Which? Best Buy 2024 travel insurance.</p>
+        </div>
+        <div class="service">
+          <h3>Investments</h3>
+          <p>Whether you’re a beginner, an expert or somewhere in between – we can help you make the most of your money.</p>
+        </div>
+        <div class="service">
+          <h3>Offers and subscriptions</h3>
+          <p>Start enjoying your favorite offers and subscriptions through the EasyBank app.</p>
+        </div>
+      </section>
+    </main>
+    <br/>
+    <footer>&copy; 2024 EastBank. All rights reserved.</footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
