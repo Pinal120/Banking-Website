@@ -1,0 +1,57 @@
+/* Source: https://www.youtube.com/watch?v=ldwlOzRvYOU */
+
+@media screen and (max-width: 1200px) {
+    .nav-links {
+      display: none;
+    }
+  
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+      position: absolute;
+      top: 1px;
+      right: 2rem;
+    }
+    .hamburger-menu {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .service {
+      flex: 1 1 calc(50% - 20px);
+    }
+  
+    .section-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .header-main {
+      height: 150vh;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .header-main h2 {
+      font-size: 1.8rem;
+      top: 20px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  
+    .header-main p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+  
+    .telephones {
+      max-width: 90%;
+    }
+}
