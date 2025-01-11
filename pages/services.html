@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/mediaqueries.css" />
+</head>
+<body>
+  <!-- Source: https://www.youtube.com/watch?v=ldwlOzRvYOU -->
+  <!-- Header Section -->
+  <header>
+    <h1 class="logo">EasyBank</h1>
+    <nav class="desktop-nav">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="mortgage-calculator.html">Mortgage Calculator</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Mobile Navigation Section -->
+   <nav id="hamburger-nav">
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <ul>
+          <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+          <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+          <li><a href="mortgage-calculator.html" onclick="toggleMenu()">Mortgage Calculator</a></li>
+          <li><a href="about.html" onclick="toggleMenu()">About Us</a></li>
+          <li><a href="contact.html" onclick="toggleMenu()">Contact Us</a></li>
+          <li><a href="faq.html" onclick="toggleMenu()">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+      <section>
+        <h2>Savings Accounts</h2>
+      <div class="service">
+        <p>Our savings accounts offer competitive interest rates, easy online access, and no monthly fees. Start saving for your future today!</p>
+      </div>
+      </section>
+      <section>
+        <h2>Personal Loans</h2>
+      <div class="service">
+        <p>We offer personal loans with flexible terms and low interest rates. Whether for a vacation, home improvement, or debt consolidation, we have you covered.</p>
+      </div>
+      </section>
+      <section>
+        <h2>Mortgage Loans</h2>
+      <div class="service">
+        <p>Looking to buy a home? Our mortgage loans offer competitive interest rates, low down payments, and a fast, easy application process.</p>
+      </div>
+      </section>
+    </main>
+    <footer><p>&copy; 2024 EastBank. All rights reserved.</p></footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
